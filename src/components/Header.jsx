@@ -1,10 +1,14 @@
+"use client"
 import Link from "next/link";
 import MenuItem from "./MenuItem";
 import {AiFillHome} from "react-icons/ai";
 import {BsFillInfoCircleFill} from "react-icons/bs"
 import DarkModeSwitch from "./DarkModeSwitch";
+import { useEffect, useState } from "react";
 
 const Header = () => {
+    
+
     return ( 
         <div className="flex items-center p-3 justify-between lg:max-w-6xl mx-auto">
             <div className="flex gap-4">
