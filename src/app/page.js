@@ -24,12 +24,10 @@ export default async function Home({searchParams}) {
   const result = data.results;
 
   return (
-    <div className="font-bold flex-col text-green-600">
+    <div className="font-bold flex-col">
 
       {
-        result.map((res) =>(
-            <Results key={res.id} title={res.original_title} />
-        ))
+        <Results results={result} />
       }
       
     </div>
