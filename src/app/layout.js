@@ -1,7 +1,7 @@
 import { Inter } from 'next/font/google'
 import './globals.css'
 import Header from '../components/Header.jsx'
-import NavBar from '../components/NavBar.jsx'
+import NavBar from '../components/Navbar'
 
 
 import SearchBox from '../components/SearchBox.jsx'
