@@ -1,4 +1,4 @@
-import Results from "../../../components/Results";
+import Results from "../../../components/Results.jsx";
 
 const SearchPage = async({params}) => {
     const searchTerm = params.searchTerm;
