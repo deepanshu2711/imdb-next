@@ -12,6 +12,7 @@ async function MoviePage({ params }) {
           src={`https://image.tmdb.org/t/p/original/${movie.poster_path}`}
           width={500}
           height={300}
+          alt="posterimage"
           className="rounded-lg md:w-96 md:h-96"
         />
         <div className="p-2">

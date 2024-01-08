@@ -1,10 +1,10 @@
 "use client"
+
 import Link from "next/link";
 import MenuItem from "./MenuItem";
 import {AiFillHome} from "react-icons/ai";
 import {BsFillInfoCircleFill} from "react-icons/bs"
-import DarkModeSwitch from "./DarkModeSwitch";
-import { useEffect, useState } from "react";
+
 
 const Header = () => {
     
@@ -17,7 +17,7 @@ const Header = () => {
                 
             </div>
             <div className="flex items-center gap-4">
-            <DarkModeSwitch />
+            
             <Link href="/"  className=" flex gap-1 items-center">
                 <span className="text-2xl font-bold bg-amber-500 rounded-lg text-white py-1 px-2">IMDB</span>
                 <span className="text-xl hidden sm:inline">Clone</span>
