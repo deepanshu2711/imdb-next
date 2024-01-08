@@ -1,4 +1,4 @@
-import Results from "@/components/Results";
+import Results from "../components/Results";
 import { Result } from "postcss";
 
 
